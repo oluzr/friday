@@ -1,0 +1,13 @@
+@charset "utf-8";
+*{margin: 0; padding:0; box-sizing: border-box;font-family: 'Pretendard Variable'}
+a{text-decoration: none; color: inherit;}
+ul,li{list-style: none;}
+.clear_fix::after,.clear_fix::before{clear: both; display: block; content: "";}
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Pretendard Variable' */
+
+#wrap{width: 100%; background-color: rosybrown;}
+#header{width: 100%;}
+#header .head_inner{ padding:20px 5%; display: flex; justify-content: space-between;}
